@@ -89,7 +89,9 @@ footer img{
 }
 ul{
 	list-style-type: none;
-	text-transform: lowercase;
+}
+.songs li {
+  text-transform: lowercase;
 }
 .ukr{
   text-transform: capitalize;
