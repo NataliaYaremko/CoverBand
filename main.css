@@ -89,5 +89,17 @@ footer img{
 }
 ul{
 	list-style-type: none;
-	text-transform: capitalize;
+	text-transform: lowercase;
+}
+.ukr{
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 768px){
+  .songs p{
+    font-size: 22px;
+  }
+  .songs li{
+    font-size: 20px;
+  }
 }
